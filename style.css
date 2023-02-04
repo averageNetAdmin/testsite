@@ -1,0 +1,118 @@
+@font-face {
+     
+    font-family: 'Roboto';
+    src: url(https://fonts.gstatic.com/s/roboto/v15/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2);
+}
+
+
+
+.main-container {
+    width: 550px;
+}
+
+a {
+    color: #d3ae34;
+}
+
+a:visited {
+    color: #93781f;
+}
+
+.header {
+    margin: 10px 0px;
+    height: 100px;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo-container {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 70px;
+    height: 100px;
+}
+
+.header__name {
+
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.header__contacts * {
+    display: block;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bio__name {
+    font-size: 24px;
+}
+
+.bio__skills {
+    display: flex;
+    align-items: center;
+}
+
+.bio__skills-img {
+    width: 50%;
+}
+
+.bio__myskills {
+    width: 50%;
+    margin-left: 30%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bio__myskills * {
+    margin: 8px 0px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons * {
+    
+    text-align: center;
+    border-radius: 5px;
+}
+
+.buttons * * {
+    background-color: #d3ae34;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 12px 50px;
+    text-decoration: none;
+}
+
+
+.buttons * *:visited {
+    color: #fff;
+    background-color: #d3ae34;
+}
+
+body {
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
