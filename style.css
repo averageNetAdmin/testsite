@@ -37,18 +37,62 @@ a:visited {
 }
 
 .header__logo {
-    width: 70px;
+    width: 347px;
     height: 100px;
 }
 
-.header__name {
-
-    font-size: 40px;
-    margin-left: 50px;
+.header__contacts * {
+    font-size: 20px;
+    display: block;
+    color: #83cba8;
 }
 
-.header__contacts * {
-    display: block;
+.header__tel {
+    color: #000;
+}
+
+.content__image {
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.info {
+    font-weight: 500;
+    color: #555;
+}
+
+.info__header {
+    font-size: 20px;
+}
+
+.info__content {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 3px 0px;
+}
+
+.info__image {
+    width: 183px;
+}
+
+.info__sale {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 16px 0px;
+    color: #65ca99;
+}
+
+.info__study {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 16px 0px;
+    color: #555;
 }
 
 .bio {
@@ -61,32 +105,43 @@ a:visited {
     font-size: 24px;
 }
 
+.bio__cont {
+    color: #0068a5;
+    font-weight: 700;
+}
+
+
 .bio__skills {
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
 .bio__skills-img {
-    width: 50%;
+    padding-top: 15px;
+    width: 183px;
 }
 
-.bio__myskills {
-    width: 50%;
-    margin-left: 30%;
-    font-size: 16px;
+.bio__j {
+   font-weight: 700;
+}
+
+.bio__myskills { 
+    padding: 15px 10px;
+    color: #555;
+    font-size: 18x;
     display: flex;
     flex-direction: column;
 }
 
 .bio__myskills * {
-    margin: 8px 0px;
+    line-height: 27px;
 }
 
 .buttons {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .buttons * {
@@ -96,11 +151,11 @@ a:visited {
 }
 
 .buttons * * {
-    background-color: #d3ae34;
+    background-color: #1e81a9;
     color: #fff;
+    font-size: 20px;
     display: block;
-    width: 100%;
-    padding: 12px 50px;
+    padding: 14px 30px;
     text-decoration: none;
 }
 
@@ -108,6 +163,27 @@ a:visited {
 .buttons * *:visited {
     color: #fff;
     background-color: #d3ae34;
+}
+
+.footer {
+    font-size: 14px;
+    background-color: #1e81a9;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-self: stretch;
+    text-align: center;
+}
+
+.footer {
+    padding: 15px 10px;
+}
+
+.underfooter {
+    padding: 15px 0px;
+    font-size: 13px;
+    color: #555;
+    text-align: center;
 }
 
 body {
